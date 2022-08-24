@@ -47,3 +47,27 @@ a:hover {
     background-color: #9c9696 ;
 }
 
+.search-container {
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.search-container form {
+    width: 30%;
+    position: relative;
+}
+
+.search-container fa-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.search-container input {
+    padding: 0.5em;
+    width: 100%;
+    text-align: center;
+}
+
+
+
