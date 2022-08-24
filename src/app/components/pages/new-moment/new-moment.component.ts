@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Route, Router } from '@angular/router';
+import { ActivatedRoute, Route, Router } from '@angular/router';
 
 import { Moment } from 'src/app/Moment';
 
@@ -16,6 +16,7 @@ export class NewMomentComponent implements OnInit {
 
   constructor(
     private momentService: MomentService, 
+    private route: ActivatedRoute,
     private messagesService: MessagesService,
     private router: Router) { }
 
